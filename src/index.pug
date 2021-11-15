@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Margarita Jabones
+  body
+    .container
+      header.header
+        img.header__logo(src=require("../src/images/logo1.png"), alt="logo") 
+        .header__subtitle "Cuidate, Consientate, Enamorate de ti..."
+        .header__title JABONES ARTESANALES MARGARITA 🌼
+        nav.header__nav 
+          ul 
+            li 
+              a(href="#") Link1
+            li 
+              a(href="#") Link2
+            li 
+              a(href="#") Link3
+            li 
+              a(href="#") Link4 
+      main.main
+        .main__title jabones organicos faciales
+        .main__box
+          .main__item.card 
+            .card__title Jabon de miel
+            .card__photo 
+              img.card__image(src=require("../src/images/jabon1.jpeg"), alt="image#1")
+            .card__description 
+              | Apto para cualquier tipo de piel, remueve celulas muertas, previene las arrugas. Reestructura la dermis, aliviando tambien las infecciones cutaneas.
+      footer.footer
+        nav.footer__nav 
+          ul 
+            li 
+              a(href="#") Link1
+            li 
+              a(href="#") Link2
+            li 
+              a(href="#") Link3
+            li 
+              a(href="#") Link4  
