@@ -3,9 +3,36 @@
 
 .footer {
   background-color: $colorYellow;
-  height: 70px;
-}
+  padding: 15px 0;
+  &__logo {
+    float: left;
+   
+    img {
+      margin: 7px auto;
+      width: 100px;
+      
+    }
+  }
+  
+  &__title {
 
+  }
+
+  &__row {
+    display: flex;
+    margin:25px 0 35px;
+    justify-content: center;
+  }
+
+  &__item {
+    flex: 0 0 17%;
+    margin: 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+} 
 
 .container {
   font-family: mongolian, sans-serif;
