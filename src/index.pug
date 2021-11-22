@@ -6,52 +6,6 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Margarita Jabones
   body
-    header.header
-      .container    
-        img.header__logo.logo(src=require("../src/images/logo1yellow.png"), alt="logo") 
-        .header__subtitle "Cuidate, Consientate, Enamorate de ti..."
-        .header__title JABONES ARTESANALES MARGARITA
-        nav.header__nav 
-          ul 
-            li.header__item 
-              a(href="#") Misión
-            li.header__item  
-              a(href="#") Productos
-            li.header__item  
-              a(href="#") Opiniones
-            li.header__item  
-              a(href="#") Contactos  
-    main.main
-      .container 
-        .main__title jabones organicos faciales
-        .main__box
-          .main__item.card 
-            .card__title MIEL
-            .card__photo 
-              img.card__image(src=require("../src/images/jabon1.jpeg"), alt="image#1")
-            .card__description 
-              | Apto para cualquier tipo de piel, remueve celulas muertas, previene las arrugas. Reestructura la dermis, aliviando tambien las infecciones cutaneas.
-          .main__item.card 
-            .card__title ROMERO
-            .card__photo 
-              img.card__image(src=require("../src/images/jabon1.jpeg"), alt="image#1")
-            .card__description 
-              | Posee una gran cantidad de nutrientes, vitaminas y antioxidantes. Que ayudaran a mantener la piel elastica y firme. Sus propiedades astringentes, lo hacen muy eficaz, para eliminar poros, impurezas y lineas de expresion.
-          .main__item.card 
-            .card__title PEPINO Y MIEL
-            .card__photo 
-              img.card__image(src=require("../src/images/jabon1.jpeg"), alt="image#1")
-            .card__description 
-              | Hidrata y refresca la piel, es efectivo para las manchas. Retarda el envejecimiento, combate el acne y alivia las quemaduras solares.
-    footer.footer
-      .container 
-        nav.footer__nav 
-          ul 
-            li.footer__item  
-              a(href="#") Quienes Somos
-            li.footer__item 
-              a(href="#") Productos
-            li.footer__item 
-              a(href="#") Opiniones
-            li.footer__item 
-              a(href="#") Contactos  
+    include components/header/header 
+    include components/main/main 
+    include components/footer/footer

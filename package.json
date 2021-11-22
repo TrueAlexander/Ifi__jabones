@@ -6,7 +6,8 @@
   "scripts": {
     "build": "set NODE_ENV=production&&webpack",
     "dev": "set NODE_ENV=development&&webpack",
-    "start": "set NODE_ENV=development&&webpack serve --open"
+    "start": "set NODE_ENV=development&&webpack serve --open",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "TrueAlexander <caminante.msk@gmail.com>",
