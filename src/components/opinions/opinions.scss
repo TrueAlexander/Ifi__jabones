@@ -28,7 +28,7 @@ body {
   width: 900px;
   height: 230px;
   border-radius: 20px;
-  box-shadow: 0 0 50px $colorYellow;
+  box-shadow: 0 0 50px $colorPink;
   margin: 30px auto 45px;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
     margin: 20px;
 
     .swiper-slide {
-      background-color: $colorYellow;
+      background-color: $colorPink;
       height: 190px;
       border: 7px solid $colorLight;
       border-radius: 20px;
