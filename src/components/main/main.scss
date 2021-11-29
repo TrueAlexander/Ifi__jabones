@@ -3,11 +3,14 @@
 .main {
   padding-top: 10px;
   background-color: $colorPink;
-  height: 470px;
+  //height: 470px;
   text-align: center;
 
   &__box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //padding-bottom: 40px;
   }
   &__item {
     flex: 0 0 30%;
@@ -15,20 +18,21 @@
 } 
 
 .sectionTitle {
-  margin: 10px auto;
+  margin: 10px auto 30px;
   text-align: center;
-  font-size: 2.2em;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  font-family: $font-family-subtitle;
 }
 .card {
-  padding: 20px;
-  height: 370px;
+  padding: 35px;
+  height: 380px;
   border-radius: 50%; 
   background-color: $colorLight;
-  margin: 0 20px;
-  box-shadow: 0 0 10px $colorLight;
+  margin: 0 20px 50px;
+  box-shadow: 0 0 15px $colorLight;
   overflow: hidden;
+  transition: all 0.3s linear 0.1s;
   
 
   &__title {
@@ -37,24 +41,30 @@
     margin: 0 auto;
     width: 250px;
     font-size: 1.6em;
+    text-transform: uppercase;
   }
   &__photo {
-    margin: 12px auto 7px;
+    margin: 10px auto 7px;
     img {
-      height: 150px;
+      height: 190px;
     }
   }
   &__description {
     text-align: center;
-    line-height: 1.1em;
-    font-size: 1.2em;
-    width: 300px;
+    line-height: 1.3em;
+    font-size: 1.5em;
+    width: 240px;
     margin: 0 auto;
+    font-family: oswald;
   }
 }
 
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear 0.1s;
+}
+
 .container {
-  font-family: mongolian, sans-serif;
   max-width: 1300px;
   margin: 0 auto;
 }

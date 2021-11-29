@@ -4,9 +4,9 @@
 .footer {
   background-color: $colorPink;
   padding: 15px 0;
+  position: relative;
   &__logo {
-    float: left;
-   
+    position: absolute;   
     img {
       margin: 7px auto;
       width: 100px;

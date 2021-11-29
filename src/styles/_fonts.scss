@@ -1,9 +1,98 @@
+
+@import "variables";
+
+// Julian
+
 @font-face {
-  font-family: mongolian;
-  src: url(../fonts/mongolian-baiti.ttf);
+  $font-name: "ar-julian";
+  font-family: julian;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+// Roboto
+
+@font-face {
+  $font-name: "RobotoCondensed-Regular";
+  font-family: roboto;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+// LobsterTwo
+
+@font-face {
+  $font-name: "LobsterTwo-Bold";
+  font-family: lobster;
+  font-weight: 700;
+  src: url(#{$font-path}/#{$font-name}.ttf);
 }
 
 @font-face {
-  font-family: julian;
-  src: url(../fonts/ar-julian1.ttf);
+  $font-name: "LobsterTwo-Regular";
+  font-family: lobster;
+  font-weight: 400;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+// Oswald
+
+@font-face {
+  $font-name: "Oswald-Bold";
+  font-family: oswald;
+  font-weight: 700;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+@font-face {
+  $font-name: "Oswald-Regular";
+  font-family: oswald;
+  font-weight: 400;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+//Tangerine
+
+@font-face {
+  $font-name: "Tangerine-Bold";
+  font-family: tangerine;
+  font-weight: 700;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+@font-face {
+  $font-name: "Tangerine-Regular";
+  font-family: tangerine;
+  font-weight: 400;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+//Amaranth
+
+@font-face {
+  $font-name: "Amaranth-Bold";
+  font-family: amaranth;
+  font-weight: 700;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+@font-face {
+  $font-name: "Amaranth-BoldItalic";
+  font-family: amaranth;
+  font-weight: 700;
+  font-style: italic;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+@font-face {
+  $font-name: "Amaranth-Italic";
+  font-family: amaranth;
+  font-weight: 400;
+  font-style: italic;
+  src: url(#{$font-path}/#{$font-name}.ttf);
+}
+
+@font-face {
+  $font-name: "Amaranth-Regular";
+  font-family: amaranth;
+  font-weight: 400;
+  src: url(#{$font-path}/#{$font-name}.ttf);
 }

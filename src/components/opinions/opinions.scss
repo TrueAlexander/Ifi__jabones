@@ -25,43 +25,46 @@ body {
   }
 }
 .swiper {
-  width: 900px;
-  height: 230px;
+  width: 1200px;
+  height: 295px;
   border-radius: 20px;
   box-shadow: 0 0 50px $colorPink;
   margin: 30px auto 45px;
   display: flex;
   justify-content: center;
-  
 
   &-wrapper {
     margin: 20px;
 
     .swiper-slide {
-      background-color: $colorPink;
-      height: 190px;
+      background-color: $colorMint;
+      height: 250px;
+      overflow: hidden;
       border: 7px solid $colorLight;
       border-radius: 20px;
       padding: 15px;
-      text-transform: lowercase;
       text-align: center; 
       display: flex;
       flex-direction: column;
-      justify-content: space-between;    
+      justify-content: center;    
     }
   }
+
   &-opinion {
-    //font-size: 1.1em;
-    //line-height: 1.2em;
-   
+    font-family: oswald;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    flex: 1 1 auto;
   }
+
   &-client {
     text-transform: uppercase;
     margin: 10px auto;
-    font-style: italic;
-    font-size: 1.3em;
-    
+    font-family: julian;
+    font-size: 1.2em;
+
   }
+
   &-city {
     text-transform: capitalize;
     font-weight: 700;
@@ -71,13 +74,8 @@ body {
   &-pagination {
     .swiper-pagination-bullet-active {
       background-color: rgba(0, 0, 0, 0.7);
- }
-    
+    }   
   }
-
-  
-
-
 }
 
 
@@ -85,8 +83,7 @@ body {
 .container {
   font-family: mongolian, sans-serif;
   max-width: 1300px;
-  margin: 0 auto;
- 
+  margin: 0 auto; 
 }
 
 
