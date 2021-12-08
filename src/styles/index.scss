@@ -1,4 +1,5 @@
 //components styles
+@use './container';
 @use '../components/header/header';
 @use '../components/footer/footer';
 @use '../components/main/main';
@@ -7,6 +8,7 @@
 //import fonts and variables
 @import 'fonts';
 @import 'variables';
+
 
 //reset default CSS
 @import 'nullstyle';

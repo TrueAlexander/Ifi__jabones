@@ -25,12 +25,13 @@
   font-family: $font-family-subtitle;
 }
 .card {
+  color: #000;
   padding: 35px;
   height: 380px;
   border-radius: 50%; 
   background-color: $colorLight;
   margin: 0 20px 50px;
-  box-shadow: 0 0 15px $colorLight;
+  box-shadow: 0 0 10px $colorLight, 0 10px 20px $colorMint;
   overflow: hidden;
   transition: all 0.3s linear 0.1s;
   
@@ -45,8 +46,12 @@
   }
   &__photo {
     margin: 10px auto 7px;
+    
     img {
       height: 190px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 25px $colorMint;
     }
   }
   &__description {
@@ -60,11 +65,6 @@
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   transition: all 0.3s linear 0.1s;
-}
-
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
 }
