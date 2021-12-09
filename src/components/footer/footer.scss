@@ -2,15 +2,15 @@
 
 
 .footer {
-  background-color: $colorPink;
+  background-color: $colorPrimary;
   padding: 15px 0;
   position: relative;
+  
   &__logo {
     position: absolute;   
     img {
       margin: 7px auto;
-      width: 100px;
-      
+      width: 100px;  
     }
   }
   
@@ -20,16 +20,49 @@
 
   &__row {
     display: flex;
-    margin:25px 0 35px;
+    margin:25px 0 35px auto;
     justify-content: center;
+    width: 90%;
+    
+   
   }
 
   &__item {
     flex: 0 0 17%;
     margin: 0 30px;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 700;
+    color: $colorFont;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear 0.1s;
+   
+    img {
+      background-color: $colorTertiary;
+      border-radius: 50%;
+      box-shadow: 0 0 10px $colorTertiary;
+      height: 80%;
+      margin-right: 15px;
+
+    }
+    p {
+      font-size: 18px;
+      font-family: oswald;
+      font-weight: 400;
+     
+    }
   }
 
+  &__item:hover {
+    transform: translateY(-2px) scale(1.04);
+    transition: all 0.3s linear 0.1s;
+    img {
+      box-shadow: 0 5px 10px $colorSecondary, 0 5px 20px $colorTertiary;
+    }
+    p {
+      text-shadow: 0 5px 10px $colorSecondary, 0 5px 20px $colorTertiary;
+    }
+  }
 } 

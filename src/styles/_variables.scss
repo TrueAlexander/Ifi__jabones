@@ -1,11 +1,17 @@
 //variables 
 
-//colors
-$colorFont: #000;
+//colors static
+$colorBlack: #000;
 $colorLight: #f7eff1;
 $colorPink: #ffabab;
-$colorBrightYellow: #fdf505;
 $colorMint: #c6e5b1;
+
+//colors dynamic
+
+$colorPrimary: $colorPink;
+$colorSecondary: $colorLight;
+$colorTertiary: $colorMint;
+$colorFont: $colorBlack;
 
 // fonts
 $font-family-subtitle: amaranth;

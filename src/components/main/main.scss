@@ -2,15 +2,15 @@
 
 .main {
   padding-top: 10px;
-  background-color: $colorPink;
-  //height: 470px;
+  background-color: $colorPrimary;
+  
   text-align: center;
 
   &__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    //padding-bottom: 40px;
+    
   }
   &__item {
     flex: 0 0 30%;
@@ -29,9 +29,9 @@
   padding: 35px;
   height: 380px;
   border-radius: 50%; 
-  background-color: $colorLight;
+  background-color: $colorSecondary;
   margin: 0 20px 50px;
-  box-shadow: 0 0 10px $colorLight, 0 10px 20px $colorMint;
+  box-shadow: 0 0 10px $colorSecondary, 0 0 10px $colorTertiary;
   overflow: hidden;
   transition: all 0.3s linear 0.1s;
   
@@ -51,7 +51,7 @@
       height: 190px;
       border-radius: 50%;
       overflow: hidden;
-      box-shadow: 0 0 25px $colorMint;
+      box-shadow: 0 0 25px $colorTertiary;
     }
   }
   &__description {
@@ -65,6 +65,7 @@
 }
 
 .card:hover {
-  transform: scale(1.06);
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 10px 10px $colorTertiary;
   transition: all 0.3s linear 0.1s;
 }

@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 body {
-  background-color: $colorLight;
+  background-color: $colorSecondary;
 }
 .opinions {
   padding-top: 20px;
@@ -28,7 +28,7 @@ body {
   width: 1200px;
   height: 295px;
   border-radius: 20px;
-  box-shadow: 0 0 50px $colorPink;
+  box-shadow: 0 0 50px $colorPrimary;
   margin: 30px auto 45px;
   display: flex;
   justify-content: center;
@@ -37,10 +37,10 @@ body {
     margin: 20px;
 
     .swiper-slide {
-      background-color: $colorMint;
+      background-color: $colorTertiary;
       height: 250px;
       overflow: hidden;
-      border: 7px solid $colorLight;
+      border: 7px solid $colorSecondary;
       border-radius: 20px;
       padding: 15px;
       text-align: center; 
@@ -51,8 +51,8 @@ body {
     }
     .swiper-slide:hover {
       transition: all 0.3s linear 0.1s;
-      box-shadow: 0 0 15px $colorMint;
-      transform: scale(1.01);
+      box-shadow: 0 7px 15px $colorTertiary;
+      transform: translateY(-7px) scale(1.01);
 
     }
   }

@@ -22,7 +22,12 @@ module.exports = {
       filename: '[name].[contenthash].css' 
     }),
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: 'src/index.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'page.html',
+      template: 'src/page.pug'
     })
   ],
     devServer: {
