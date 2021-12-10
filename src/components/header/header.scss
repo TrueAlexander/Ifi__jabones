@@ -1,6 +1,9 @@
 @import '../../styles/variables';
 
 .header {
+  transition: all 0.8s linear 0.05s;
+  display: block;
+  position: relative;
   background-color: $colorSecondary;
   height: 240px;
   text-align: center;
@@ -8,14 +11,14 @@
   
 
   &__subtitle {
-    padding-top: 5px;
-    flex: 0 0 auto;
+    transition: all 0.8s linear 0.05s;
     font-size: 1.9em;
     font-family: $font-family-subtitle;
     font-style: italic;
   }
 
   &__title {
+    transition: all 0.8s linear 0.05s;
     font-weight: 700;
     font-size: 3.7em;
     margin: 50px auto;
@@ -24,12 +27,14 @@
   }
 
   img.logo {
+    transition: all 0.8s linear 0.05s;
     float: left;
     display: block;
     height: 220px; 
   }
 
   &__nav {
+    transition: all 0.8s linear 0.05s;
     font-size: 2em;
     line-height: 2em;
     font-family: $font-family-subtitle;
@@ -62,6 +67,42 @@
       transform: translateY(-3px) scale(1.02);
       transition: all 0.3s linear 0.1s;
     }
+  }
+}
+
+.scroll.header {
+  transition: all 0.8s linear 0.05s;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  padding-top: 0px;
+  z-index: 10;
+
+  &__subtitle {
+    display: none;
+    transition: all 0.8s linear 0.05s;
+  }
+
+  &__title {
+    font-size: 2.4em;
+    margin: 10px auto 20px;
+    transition: all 0.8s linear 0.05s;
+  }
+
+  img.logo.scroll {
+    transition: all 0.8s linear 0.05s;
+    float: left;
+    display: block;
+    height: 100px; 
+  }
+
+  &__nav {
+    transition: all 0.8s linear 0.05s;
+    font-size: 1.8em;
+    margin: 0 0 0 auto;
+    width: 90%;
+    line-height: 1.8em;
   }
 }
 
