@@ -3,7 +3,8 @@
 .header {
   transition: all 0.8s linear 0.05s;
   display: block;
-  position: relative;
+  position: fixed;
+  width: 100%;
   background-color: $colorSecondary;
   height: 240px;
   text-align: center;
@@ -75,7 +76,7 @@
   display: block;
   position: fixed;
   width: 100%;
-  height: 110px;
+  height: 120px;
   padding-top: 0px;
   z-index: 10;
 
