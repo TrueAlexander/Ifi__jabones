@@ -28,6 +28,20 @@ console.log ('Hola! Soy Opiniones');
     clickable: true,
     dynamicBullets: true,
   },
+  breakpoints: {
+
+    200: {
+      slidesPerView: 1,
+    },
+    
+    650: {
+      slidesPerView: 2,
+    },
+
+    1290: {
+      slidesPerView: 3,
+    }
+  },
 
   // Navigation arrows
   navigation: {
@@ -35,28 +49,3 @@ console.log ('Hola! Soy Opiniones');
     prevEl: '.swiper-button-prev',
   }
 });
-/*
- const swiper = new Swiper('.mySwiper', {
-  slidesPerView: 3,
-  spaceBetween: 40,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  breakpoints: {
-
-    200: {
-      slidesPerView: 1,
-    },
-    
-    600: {
-      slidesPerView: 2,
-    },
-
-    890: {
-      slidesPerView: 3,
-    }
-  },
-});
-*/
