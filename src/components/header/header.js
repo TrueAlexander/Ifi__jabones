@@ -16,7 +16,7 @@ $(window).scroll(function(){
 $(".header__nav_burger").click(function() {
   $("body").toggleClass("lock");
 
-  if ($(window).scrollTop() === 0) {
+  if ($(window).scrollTop() < 1) {
     $(".header, .header__logo, .header__subtitle, .header__title, .header__nav, .header__nav_burger").toggleClass("scroll");
     $(".header__nav_burger, .header__nav, .header__list, .header__item").toggleClass("dropped");
     $(".header__item").click(function() {

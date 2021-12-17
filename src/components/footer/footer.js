@@ -1,1 +1,2 @@
-console.log ('Hola! Soy Footer');
+console.log('Hola! Soy Footer');
+
