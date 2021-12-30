@@ -5,10 +5,12 @@ $colorBlack: #000;
 $colorLight: #f7eff1;
 $colorPink: #ffabab;
 $colorMint: #c6e5b1;
+$colorBlue: rgb(233, 126, 126);
+$colorBlue05: rgba(233, 126, 126, 0.7);
 
 //colors dynamic
 
-$colorPrimary: $colorPink;
+$colorPrimary: $colorBlue;
 $colorSecondary: $colorLight;
 $colorTertiary: $colorMint;
 $colorFont: $colorBlack;
@@ -16,5 +18,5 @@ $colorFont: $colorBlack;
 // fonts
 $font-family-subtitle: amaranth;
 $font-family-title: julian;
-$font-fanily-description: oswald;
+$font-family-description: oswald;
 $font-path: "../fonts";

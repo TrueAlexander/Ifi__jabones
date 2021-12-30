@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.mission {
+
+  &__box {
+    text-align: center;
+    padding: 400px 40px 0;
+    max-width: 100%;
+    background-image: url("../../images/margaritas-bg.jpg");
+    background-position:center;
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100vh;
+    border: 2px solid $colorPrimary;
+    border: 8px;
+    box-shadow: 0 5px 5px $colorSecondary;
+    color: $colorSecondary;
+    font-size: 2em;
+    font-family: amaranth;
+    text-shadow: 0 0 5px $colorPrimary;
+    line-height: 1.5em;
+
+  }
+
+  &__description {
+    background-color: $colorBlue05;
+    border-radius: 8px;
+    
+    
+  }
+
+}

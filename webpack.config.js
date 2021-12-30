@@ -19,7 +19,7 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css' 
+      filename: '[name].[contenthash].css'
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
@@ -30,9 +30,9 @@ module.exports = {
       template: 'src/page.pug'
     })
   ],
-    devServer: {
-      static: './src/index.pug',
-      hot: true,
+  devServer: {
+    static: './src/index.pug',
+    hot: true,
   },
   module: {
     rules: [
@@ -60,8 +60,8 @@ module.exports = {
                       ]
                     })
                     //{
-                      //Options
-                   // }
+                    //Options
+                    // }
                   ],
                 ],
               },
@@ -89,7 +89,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-           presets: ['@babel/preset-env']
+            presets: ['@babel/preset-env']
           }
         }
       }
