@@ -1,12 +1,12 @@
 @import '../../styles/variables';
 
 body {
-  background-color: $colorTertiary;
   display: flex;
   flex-direction: column;
 }
 .product {
   flex: 1 1 auto;
+  background-color: $colorTertiary;
 
   &__box {
     margin-top: 0px;
