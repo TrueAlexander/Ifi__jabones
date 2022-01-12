@@ -4,3 +4,4 @@ import './components/header/header.js';
 import './components/main/main.js';
 import './components/opinions/opinions.js';
 import './components/footer/footer.js';
+import './components/product/product.js';

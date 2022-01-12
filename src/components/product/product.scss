@@ -1,0 +1,111 @@
+@import '../../styles/variables';
+
+body {
+  background-color: $colorTertiary;
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  flex: 1 1 auto;
+
+  &__box {
+    margin-top: 0px;
+    padding-top: 225px; 
+  }
+
+  &__card {
+    background-color: $colorSecondary;
+    border-radius: 15px;
+    box-shadow: 0 0 10px $colorSecondary;
+    padding: 5px 20px 10px;
+    margin: 25px auto 20px;
+    text-align: center;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+ 
+  }
+
+  &__photo {
+    flex: 0 0 50%;
+    height: 300px;
+    background-color: grey;
+    box-shadow: 0 0 10px grey;
+    border-radius: 30px;
+    color: $colorSecondary;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &__description {
+    flex: 0 0 50%;
+    font-family: oswald;
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7em;
+    font-size: 1.3em;
+   
+  }
+  &__price {
+    margin-top: 30px;
+    font-size: 2em;
+    p {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    
+  }
+  .price {
+    color: $colorPrimary;
+  }
+} 
+
+@media (max-width:700px) {
+
+  .product {
+
+    &__box {
+      margin-top: 0px;
+      padding-top: 195px; 
+    }
+
+    &__row {
+      display: block;
+    }
+    
+    &__card {
+      padding: 5px 15px 10px;
+      margin: 20px auto 15px;  
+    }
+
+    &__photo {
+      height: 250px; 
+    }
+  
+    &__description {
+      padding: 10px 10px;
+      line-height: 1.3em;
+      font-size: 1.25em;
+    }
+
+    &__price {
+      margin-top: 10px;
+      font-size: 2em;
+      p {
+        display: inline-block;
+        margin-right: 10px;
+      }
+   
+    }
+   
+  }
+ 
+}
+
+

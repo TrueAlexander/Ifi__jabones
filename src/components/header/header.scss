@@ -303,7 +303,7 @@ body.lock {
       display: block;
       margin: 0;
       padding: 0;
-      background-color: $colorTertiary;
+      background-color: $colorPrimary;
       padding-bottom: 15px;
       box-shadow: 0 5px 10px $colorSecondary;
       border-radius: 20px;
@@ -311,6 +311,7 @@ body.lock {
     }
 
     &__item {
+      background-color: $colorPrimary;
       border-radius: none;
       text-align: center;
       margin: 0;
