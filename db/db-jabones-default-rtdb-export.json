@@ -1,0 +1,58 @@
+{
+  "goods": [
+    {
+      "about": "Máxima suavidad e hidratación",
+      "category": "Jabones",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ipsum libero ut nam neque vel possimus modi porro molestias facere ullam dolor beatae pariatur blanditiis, quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 0,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "80 $",
+      "title": "Miel"
+    },
+    {
+      "about": "Combate las celulas muertas",
+      "category": "Jabones",
+      "description": "quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 1,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "80 $",
+      "title": "Avena"
+    },
+    {
+      "about": "Regenera la piel y lineas de expresión",
+      "category": "Jabones",
+      "description": "quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 2,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "80 $",
+      "title": "Romero"
+    },
+    {
+      "about": "Elimina las manchas, retarda el envejecimiento",
+      "category": "Jabones",
+      "description": "quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 3,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "80 $",
+      "title": "Pepino y miel"
+    },
+    {
+      "about": "Elimina el exceso de grasa y combate a profundidad el acne",
+      "category": "Jabones",
+      "description": "quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 4,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "80 $",
+      "title": "Aloe Vera y miel"
+    },
+    {
+      "about": "Mas firmeza, menos arrugas, reafirmante",
+      "category": "Cremas faciales",
+      "description": "quam enim, adipisci cum eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro exercitationem tempore quo quos nisi rerum consequuntur nam, laboriosam accusantium repellendus, architecto molestias! Ducimus ratione accusantium at iste voluptas eos?",
+      "id": 5,
+      "img": "https://i.ibb.co/28nzF7K/jabon1.png",
+      "price": "100 $",
+      "title": "Crema 2 en 1"
+    }
+  ]
+}
