@@ -305,9 +305,12 @@ body.lock {
       padding: 0;
       background-color: rgba(236, 236, 126, 0.95);
       padding-bottom: 15px;
+      text-shadow: 5px 5px 10px $colorPrimary, 5px 5px 10px black;
       box-shadow: 0 5px 10px $colorSecondary;
-      border-radius: 20px;
-      height: 350px;
+      
+      border-radius: 0 0 50% 50%;
+      height: 300px;
+      
     }
 
     &__item {
@@ -318,8 +321,9 @@ body.lock {
       padding: 0;
       
       a {
+        color: #fff;
         border: none;
-        padding: 7px;
+        padding: 20px;
       }      
     }
   }

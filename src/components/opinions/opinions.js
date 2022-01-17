@@ -1,19 +1,18 @@
-console.log ('Hola! Soy Opiniones');
 
- // core version + navigation, pagination modules:
-  import Swiper, { Navigation, Pagination } from 'swiper';
-  // import Swiper and modules styles
-  import 'swiper/css';
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-  import 'swiper/scss/autoplay'; 
+// core version + navigation, pagination modules:
+import Swiper, { Navigation, Pagination } from 'swiper';
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/scss/autoplay';
 
-  // configure Swiper to use modules
-  Swiper.use([Navigation, Pagination]);
+// configure Swiper to use modules
+Swiper.use([Navigation, Pagination]);
 
-  // init Swiper:
+// init Swiper:
 
-  const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
   slidesPerView: 3,
@@ -21,8 +20,8 @@ console.log ('Hola! Soy Opiniones');
   autoplay: {
     delay: 2500,
   },
-  
-  // If we need pagination
+
+  //pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -33,7 +32,7 @@ console.log ('Hola! Soy Opiniones');
     200: {
       slidesPerView: 1,
     },
-    
+
     650: {
       slidesPerView: 2,
     },

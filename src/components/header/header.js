@@ -1,6 +1,3 @@
-
-console.log('Hola! Soy Header');
-
 import $ from 'jquery';
 
 //scroll/full header
