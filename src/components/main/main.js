@@ -6,9 +6,7 @@ load();
 setTimeout(chooseProduct, 3000)
 
 function chooseProduct() {
-
   const prodItems = document.querySelectorAll('.card')
-
 
   prodItems.forEach((prodItem) => {
 
@@ -17,43 +15,28 @@ function chooseProduct() {
       const mission = document.querySelector('.mission');
       const opinions = document.querySelector('.opinions');
       const main = document.querySelector('.main');
-      const mainContainer = document.querySelector('.main > .container');
-
       const ind = prodItem.id;
-
       mission.style.display = 'none'
       opinions.style.display = 'none'
-      main.style.background = '#c6e5b1'
-      mainContainer.innerHTML = ''
-
+      main.style.display = 'none'
       loadProduct(ind);
-
     })
 
   })
 
 }
 
-//to finish anchors after reload?
-/*const missionBtn = document.querySelector('#mission-btn')
-const productsBtn = document.querySelector('#products-btn')
-const opinionsBtn = document.querySelector('#opinions-btn')
+const buttonsNav = document.querySelectorAll('.header__item')
 
-missionBtn.addEventListener('click', () => {
-
-  document.location.reload()
-
+buttonsNav.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const product = document.querySelector('.product')
+    const productContainer = document.querySelector('.product > .container');
+    const main = document.querySelector('.main')
+    product.style.display = 'none'
+    productContainer.innerHTML = ''
+    mission.style.display = 'block'
+    opinions.style.display = 'block'
+    main.style.display = 'block'
+  })
 })
-
-productsBtn.addEventListener('click', () => {
-
-  document.location.reload()
-
-})
-
-opinionsBtn.addEventListener('click', () => {
-
-  document.location.reload()
-
-
-})*/

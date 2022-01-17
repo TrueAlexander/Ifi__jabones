@@ -1,6 +1,6 @@
 const renderProduct = (goods, index) => {
 
-  const mainContainer = document.querySelector('.main > .container');
+  const productContainer = document.querySelector('.product > .container');
 
   localStorage.setItem('goods', JSON.stringify(goods));
 
@@ -8,8 +8,7 @@ const renderProduct = (goods, index) => {
 
     if (goodsItem.id == index) {
 
-      mainContainer.insertAdjacentHTML('beforeend', `
-        <div class="product">  
+      productContainer.insertAdjacentHTML('beforeend', `
           <div class="product__box">
             <div class="product__card">
               <div class="product__title sectionTitle">${goodsItem.title}</div>
@@ -26,9 +25,7 @@ const renderProduct = (goods, index) => {
               </div>
             </div>
           </div>
-        </div> 
       `);
-
     };
   })
 
