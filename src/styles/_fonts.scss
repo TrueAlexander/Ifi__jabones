@@ -17,22 +17,6 @@
   src: url(#{$font-path}/#{$font-name}.ttf);
 }
 
-// LobsterTwo
-
-@font-face {
-  $font-name: "LobsterTwo-Bold";
-  font-family: lobster;
-  font-weight: 700;
-  src: url(#{$font-path}/#{$font-name}.ttf);
-}
-
-@font-face {
-  $font-name: "LobsterTwo-Regular";
-  font-family: lobster;
-  font-weight: 400;
-  src: url(#{$font-path}/#{$font-name}.ttf);
-}
-
 // Oswald
 
 @font-face {
